@@ -170,15 +170,21 @@ int main(void) {
 	SysTick_Config(SystemCoreClock / 1000);
 	Init_Touch(); 
 	init();
-	bool lock = 0 ;
+	bool lock = 0 ; 
 	uint8_t mode = standby;
 	while (1) {
-		Touch_Do_Task();
+		Touch_Do_Task(); int count = 0;
 		if (ts.flag.touch_sensing_end == 1) {
 				Touch_Key_Scenario();
 				ts.flag.touch_sensing_end = 0;
 		}
-		if (ts.detect_key == 0x03 && mode != standby ) {if (lock ==1) {lock =0;LED->DISPRAM0 &= ~(1 << 6);} else lock = 1;}
+//		if (ts.detect_key == 0x03 && mode != standby ) {if (lock ==1) {lock =0;LED->DISPRAM0 &= ~(1 << 6);} else lock = 1;}
+		while (ts.detect_key == 0x02) {count++;Touch_Do_Task();
+		if (ts.flag.touch_sensing_end == 1) {
+				Touch_Key_Scenario();
+				ts.flag.touch_sensing_end = 0;
+		} if(count >= 10000) {if (lock ==1) {lock =0;LED->DISPRAM0 &= ~(1 << 6);} else lock = 1;ledT(3);}
+		}
 		if (lock == 1) {
 			switch (mode){
 		case mode1   : ledM(1) ; break ;

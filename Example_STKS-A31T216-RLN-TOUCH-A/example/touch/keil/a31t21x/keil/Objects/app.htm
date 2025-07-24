@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\app.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\app.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Thu Jul 24 13:23:04 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060422: Last Updated: Thu Jul 24 15:06:03 2025
 <BR><P>
 <H3>Maximum Stack Usage =         96 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -222,13 +222,13 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[4f]"></a>ledM</STRONG> (Thumb, 146 bytes, Stack size 40 bytes, main.o(.text))
+<P><STRONG><a name="[50]"></a>ledM</STRONG> (Thumb, 146 bytes, Stack size 40 bytes, main.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = ledM
 </UL>
 <BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[50]"></a>ledT</STRONG> (Thumb, 140 bytes, Stack size 44 bytes, main.o(.text))
+<P><STRONG><a name="[4f]"></a>ledT</STRONG> (Thumb, 140 bytes, Stack size 44 bytes, main.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = ledT
 </UL>
 <BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -245,7 +245,7 @@ Global Symbols
 <BR>[Called By]<UL><LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[38]"></a>main</STRONG> (Thumb, 496 bytes, Stack size 16 bytes, main.o(.text))
+<P><STRONG><a name="[38]"></a>main</STRONG> (Thumb, 552 bytes, Stack size 16 bytes, main.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = main &rArr; Touch_Do_Task &rArr; Touch_Init_Register &rArr; Touch_Set_Shield &rArr; HAL_GPIO_SetMode
 </UL>
 <BR>[Calls]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Touch_Key_Scenario
@@ -254,8 +254,8 @@ Global Symbols
 <LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Port_Init
 <LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Init_Touch
 <LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;init
-<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledT
-<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledM
+<LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledT
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ledM
 <LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Change_SysClock
 <LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Config
 <LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_uidivmod
