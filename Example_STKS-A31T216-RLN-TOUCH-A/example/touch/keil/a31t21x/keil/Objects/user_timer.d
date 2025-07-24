@@ -1,0 +1,12 @@
+.\objects\user_timer.o: ..\..\code_app\user_timer.c
+.\objects\user_timer.o: ..\..\..\..\..\core\device\a31t21x\include\A31T21x.h
+.\objects\user_timer.o: ..\..\..\..\..\core\cmsis\include\core_cm0plus.h
+.\objects\user_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\user_timer.o: ..\..\..\..\..\core\cmsis\include\cmsis_version.h
+.\objects\user_timer.o: ..\..\..\..\..\core\cmsis\include\cmsis_compiler.h
+.\objects\user_timer.o: ..\..\..\..\..\core\cmsis\include\cmsis_armcc.h
+.\objects\user_timer.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h
+.\objects\user_timer.o: ..\..\code_app\library\header\common.h
+.\objects\user_timer.o: ..\..\code_app\library\header\touch_lib.h
+.\objects\user_timer.o: ..\..\code_app\user_timer.h
+.\objects\user_timer.o: ..\..\code_app\user_function.h

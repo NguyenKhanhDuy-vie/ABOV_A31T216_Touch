@@ -1,0 +1,27 @@
+--cpu Cortex-M0+
+".\objects\main.o"
+".\objects\a31t21x_system_setting.o"
+".\objects\a31t21x_port_init.o"
+".\objects\debug.o"
+".\objects\led_driver.o"
+".\objects\user_timer.o"
+".\objects\i2c.o"
+".\objects\user_function.o"
+".\objects\register_map.o"
+".\objects\touch_config.o"
+".\objects\a31t21x_system.o"
+".\objects\a31t21x_startup_arm.o"
+".\objects\a31t21x_dma.o"
+".\objects\a31t21x_gpio.o"
+".\objects\a31t21x_led.o"
+".\objects\a31t21x_pwr.o"
+".\objects\a31t21x_scu.o"
+".\objects\a31t21x_timer.o"
+".\objects\a31t21x_uart.o"
+".\objects\a31t21x_usart1n.o"
+".\objects\a31t21x_wdt.o"
+"..\..\code_app\library\Objects\touch_V109_240222.lib"
+--strict --scatter ".\Objects\app.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\app.map" -o .\Objects\app.axf

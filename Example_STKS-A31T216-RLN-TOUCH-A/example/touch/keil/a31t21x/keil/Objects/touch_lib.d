@@ -1,0 +1,17 @@
+.\objects\touch_lib.o: ..\..\code_lib\touch_lib.c
+.\objects\touch_lib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\touch_lib.o: ..\..\..\..\..\core\device\a31t21x\include\A31T21x.h
+.\objects\touch_lib.o: ..\..\..\..\..\core\cmsis\include\core_cm0plus.h
+.\objects\touch_lib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\touch_lib.o: ..\..\..\..\..\core\cmsis\include\cmsis_version.h
+.\objects\touch_lib.o: ..\..\..\..\..\core\cmsis\include\cmsis_compiler.h
+.\objects\touch_lib.o: ..\..\..\..\..\core\cmsis\include\cmsis_armcc.h
+.\objects\touch_lib.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h
+.\objects\touch_lib.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h
+.\objects\touch_lib.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h
+.\objects\touch_lib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\touch_lib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\touch_lib.o: ..\..\code_app\library\header\common.h
+.\objects\touch_lib.o: ..\..\code_app\library\header\touch_lib.h
+.\objects\touch_lib.o: ..\..\code_lib\..\code_app\user_timer.h
+.\objects\touch_lib.o: ..\..\code_lib\..\code_app\user_function.h

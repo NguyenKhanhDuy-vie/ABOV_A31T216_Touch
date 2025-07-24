@@ -1,0 +1,17 @@
+.\objects\user_function.o: ..\..\code_app\user_function.c
+.\objects\user_function.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\user_function.o: ..\..\..\..\..\core\device\a31t21x\include\A31T21x.h
+.\objects\user_function.o: ..\..\..\..\..\core\cmsis\include\core_cm0plus.h
+.\objects\user_function.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\user_function.o: ..\..\..\..\..\core\cmsis\include\cmsis_version.h
+.\objects\user_function.o: ..\..\..\..\..\core\cmsis\include\cmsis_compiler.h
+.\objects\user_function.o: ..\..\..\..\..\core\cmsis\include\cmsis_armcc.h
+.\objects\user_function.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h
+.\objects\user_function.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h
+.\objects\user_function.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\user_function.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\user_function.o: ..\..\code_app\library\header\common.h
+.\objects\user_function.o: ..\..\code_app\library\header\touch_lib.h
+.\objects\user_function.o: ..\..\code_app\user_timer.h
+.\objects\user_function.o: ..\..\code_app\user_function.h
+.\objects\user_function.o: ..\..\code_app\register_map.h

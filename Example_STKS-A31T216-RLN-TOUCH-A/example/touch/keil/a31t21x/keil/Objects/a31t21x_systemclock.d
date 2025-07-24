@@ -1,0 +1,17 @@
+.\objects\a31t21x_systemclock.o: ..\A31T21x_SystemClock.c
+.\objects\a31t21x_systemclock.o: ..\main.h
+.\objects\a31t21x_systemclock.o: ..\A31T21x_it.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\driver\A31T21x\Include\a31t21x_pwr.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\core\Device\A31T21x\Include\a31t21x.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\core\CMSIS\Include\core_cm0plus.h
+.\objects\a31t21x_systemclock.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\core\CMSIS\Include\cmsis_version.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\core\CMSIS\Include\cmsis_compiler.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\core\CMSIS\Include\cmsis_armcc.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\core\Device\A31T21x\Include\a31t21x_system.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\driver\A31T21x\Include\a31t21x_driver_common.h
+.\objects\a31t21x_systemclock.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\a31t21x_systemclock.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\driver\A31T21x\Include\a31t21x_scu.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\driver\A31T21x\Include\a31t21x_gpio.h
+.\objects\a31t21x_systemclock.o: ..\..\..\..\driver\A31T21x\Include\a31t21x_wdt.h

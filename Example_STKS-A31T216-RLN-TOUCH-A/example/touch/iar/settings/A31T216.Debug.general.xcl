@@ -1,0 +1,13 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armJET.dll" 
+
+"D:\SVN_KOREA_\가전-국내\1_가전 Touch Base Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Exe\app.out" 
+
+--plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
+
+--flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\flashloader\ABOV\FlashA31T216.board" 
+
+
+
+

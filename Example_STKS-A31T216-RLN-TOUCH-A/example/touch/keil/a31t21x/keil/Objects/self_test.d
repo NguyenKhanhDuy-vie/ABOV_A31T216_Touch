@@ -1,0 +1,14 @@
+.\objects\self_test.o: ..\..\..\..\..\library\ul60730\example\self_test.c
+.\objects\self_test.o: ..\..\..\..\..\library\ul60730\example\self_test.h
+.\objects\self_test.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x.h
+.\objects\self_test.o: ..\..\..\..\..\core\cmsis\include\core_cm0plus.h
+.\objects\self_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\self_test.o: ..\..\..\..\..\core\cmsis\include\cmsis_version.h
+.\objects\self_test.o: ..\..\..\..\..\core\cmsis\include\cmsis_compiler.h
+.\objects\self_test.o: ..\..\..\..\..\core\cmsis\include\cmsis_armcc.h
+.\objects\self_test.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h
+.\objects\self_test.o: ..\..\..\..\..\library\ul60730\library\include\ul60730_lib_common_V01.h
+.\objects\self_test.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h
+.\objects\self_test.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h
+.\objects\self_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\self_test.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

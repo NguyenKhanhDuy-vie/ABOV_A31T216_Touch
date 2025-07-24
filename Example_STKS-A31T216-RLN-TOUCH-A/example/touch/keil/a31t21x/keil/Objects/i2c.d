@@ -1,0 +1,17 @@
+.\objects\i2c.o: ..\..\code_app\i2c.c
+.\objects\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\i2c.o: ..\..\code_app\library\header\touch_lib.h
+.\objects\i2c.o: ..\..\code_app\library\header\common.h
+.\objects\i2c.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x.h
+.\objects\i2c.o: ..\..\..\..\..\core\cmsis\include\core_cm0plus.h
+.\objects\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\i2c.o: ..\..\..\..\..\core\cmsis\include\cmsis_version.h
+.\objects\i2c.o: ..\..\..\..\..\core\cmsis\include\cmsis_compiler.h
+.\objects\i2c.o: ..\..\..\..\..\core\cmsis\include\cmsis_armcc.h
+.\objects\i2c.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h
+.\objects\i2c.o: ..\..\code_app\user_function.h
+.\objects\i2c.o: ..\..\code_app\i2c.h
+.\objects\i2c.o: ..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h
+.\objects\i2c.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\i2c.o: ..\..\code_app\register_map.h

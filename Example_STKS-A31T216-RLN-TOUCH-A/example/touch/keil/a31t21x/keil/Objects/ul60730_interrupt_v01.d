@@ -1,0 +1,9 @@
+.\objects\ul60730_interrupt_v01.o: ..\..\..\..\..\library\UL60730\library\source\ul60730_interrupt_V01.c
+.\objects\ul60730_interrupt_v01.o: ..\..\..\..\..\library\ul60730\library\include\ul60730_lib_common_V01.h
+.\objects\ul60730_interrupt_v01.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ul60730_interrupt_v01.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x.h
+.\objects\ul60730_interrupt_v01.o: ..\..\..\..\..\core\cmsis\include\core_cm0plus.h
+.\objects\ul60730_interrupt_v01.o: ..\..\..\..\..\core\cmsis\include\cmsis_version.h
+.\objects\ul60730_interrupt_v01.o: ..\..\..\..\..\core\cmsis\include\cmsis_compiler.h
+.\objects\ul60730_interrupt_v01.o: ..\..\..\..\..\core\cmsis\include\cmsis_armcc.h
+.\objects\ul60730_interrupt_v01.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h

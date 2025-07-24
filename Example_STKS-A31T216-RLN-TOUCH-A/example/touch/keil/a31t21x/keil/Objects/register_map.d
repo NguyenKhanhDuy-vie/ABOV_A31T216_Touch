@@ -1,0 +1,11 @@
+.\objects\register_map.o: ..\..\code_app\register_map.c
+.\objects\register_map.o: ..\..\code_app\register_map.h
+.\objects\register_map.o: ..\..\code_app\library\header\common.h
+.\objects\register_map.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x.h
+.\objects\register_map.o: ..\..\..\..\..\core\cmsis\include\core_cm0plus.h
+.\objects\register_map.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\register_map.o: ..\..\..\..\..\core\cmsis\include\cmsis_version.h
+.\objects\register_map.o: ..\..\..\..\..\core\cmsis\include\cmsis_compiler.h
+.\objects\register_map.o: ..\..\..\..\..\core\cmsis\include\cmsis_armcc.h
+.\objects\register_map.o: ..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h
+.\objects\register_map.o: ..\..\code_app\user_function.h

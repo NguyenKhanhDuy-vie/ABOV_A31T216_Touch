@@ -1,0 +1,616 @@
+﻿###############################################################################
+#
+# IAR ELF Linker V8.30.2.160/W32 for ARM                  22/Feb/2024  19:52:06
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Exe\app.out
+#    Map file     =  
+#        D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\List\app.map
+#    Command line =  
+#        -f C:\Users\CHANGK~1.LEE\AppData\Local\Temp\EWDEF3.tmp
+#        ("D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_dma.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_gpio.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_led.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_port_init.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_pwr.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_scu.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_startup_iar.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_system.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_system_setting.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_timer.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_uart.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_usart1n.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\a31t21x_wdt.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\debug.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\i2c.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\led_driver.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\main.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\register_map.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\touch_config.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\user_function.o"
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj\user_timer.o"
+#        --no_out_extension -o "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Exe\app.out"
+#        --map "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\List\app.map"
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.1\arm\CONFIG\generic_cortex.icf" --semihosting
+#        "D:\SVN_KOREA_\가전-국내\1_가전 Touch Base
+#        Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home
+#        Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\code_app\library\touch_V109_IAR83_240222.a"
+#        --entry __iar_program_start --vfe --utf8_text_in --text_out utf8)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block PROC_STACK with size = 0M, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'ffff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0xc0
+  .intvec            ro code          0x0    0xc0  a31t21x_startup_iar.o [1]
+                                   - 0xc0    0xc0
+
+"P1":                                      0x4e20
+  .text              ro code         0xc0  0x18a8  touch_lib.o [5]
+  .text              ro code       0x1968   0x24c  a31t21x_gpio.o [1]
+  .text              ro code       0x1bb4   0x1c0  user_timer.o [1]
+  .text              ro code       0x1d74    0xe0  I32DivModFast.o [3]
+  .text              ro code       0x1e54     0x8  abs.o [2]
+  .text              ro code       0x1e5c     0x2  IntDivZer.o [3]
+  .text              ro code       0x1e5e    0x7e  lz77_init_single.o [3]
+  .text              ro code       0x1edc   0x744  led_driver.o [1]
+  .text              ro code       0x2620    0x34  ABImemcpy.o [3]
+  .text              ro code       0x2654   0x238  a31t21x_led.o [1]
+  .text              ro code       0x288c   0x680  a31t21x_uart.o [1]
+  .text              ro code       0x2f0c    0x4e  ABImemset.o [3]
+  .text              ro code       0x2f5a     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x2f5c    0x74  a31t21x_dma.o [1]
+  .text              ro code       0x2fd0   0x648  debug.o [1]
+  .text              ro code       0x3618   0x590  touch_config.o [1]
+  .text              ro code       0x3ba8   0x3a0  a31t21x_scu.o [1]
+  .text              ro code       0x3f48   0x320  a31t21x_usart1n.o [1]
+  .text              ro code       0x4268   0x314  main.o [1]
+  .text              ro code       0x457c   0x2a4  a31t21x_wdt.o [1]
+  .text              ro code       0x4820     0x8  a31t21x_port_init.o [1]
+  .text              ro code       0x4828    0x4c  a31t21x_system_setting.o [1]
+  .text              ro code       0x4874   0x2e8  user_function.o [1]
+  .text              ro code       0x4b5c   0x104  a31t21x_timer.o [1]
+  .rodata            const         0x4c60    0x48  led_driver.o [1]
+  .text              ro code       0x4ca8    0x40  a31t21x_system.o [1]
+  .text              ro code       0x4ce8    0x3c  zero_init3.o [3]
+  .text              ro code       0x4d24    0x28  data_init.o [3]
+  .text              ro code       0x4d4c    0x24  a31t21x_pwr.o [1]
+  .iar.init_table    const         0x4d70    0x20  - Linker created -
+  .text              ro code       0x4d90    0x1e  cmain.o [3]
+  .text              ro code       0x4dae     0x4  low_level_init.o [2]
+  .text              ro code       0x4db2     0x8  exit.o [2]
+  .text              ro code       0x4dba     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4dbc     0xa  cexit.o [3]
+  .text              ro code       0x4dc6     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4dc8    0x14  exit.o [4]
+  .text              ro code       0x4ddc    0x1c  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4df8    0x1c  a31t21x_startup_iar.o [1]
+  .rodata            const         0x4e14    0x18  led_driver.o [1]
+  .text              ro code       0x4e2c    0x10  a31t21x_startup_iar.o [1]
+  .rodata            const         0x4e3c     0xc  main.o [1]
+  .text              ro code       0x4e48     0xc  cstartup_M.o [3]
+  .text              ro code       0x4e54     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e56     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e58     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e5a     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e5c     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e5e     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e60     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e62     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e64     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e66     0x2  a31t21x_startup_iar.o [1]
+  .text              ro code       0x4e68     0x2  a31t21x_startup_iar.o [1]
+  .rodata            const         0x4e6a     0x0  zero_init3.o [3]
+  .rodata            const         0x4e6a     0x0  lz77_init_single.o [3]
+  Initializer bytes  const         0x4e6a    0x76  <for P2-1>
+                                 - 0x4ee0  0x4e20
+
+"P2", part 1 of 3:                          0x5bc
+  P2-1                        0x2000'0000   0x5bc  <Init block>
+    .data            inited   0x2000'0000    0x4c  touch_config.o [1]
+    .data            inited   0x2000'004c   0x540  touch_config.o [1]
+    .data            inited   0x2000'058c    0x30  user_function.o [1]
+                            - 0x2000'05bc   0x5bc
+
+"P2", part 2 of 3:                          0x67c
+  .bss               zero     0x2000'05bc   0x138  debug.o [1]
+  .bss               zero     0x2000'06f4    0xdc  touch_lib.o [5]
+  .bss               zero     0x2000'07d0    0x58  touch_lib.o [5]
+  .bss               zero     0x2000'0828    0x50  a31t21x_uart.o [1]
+  .bss               zero     0x2000'0878    0x50  a31t21x_usart1n.o [1]
+  .bss               zero     0x2000'08c8    0x48  a31t21x_timer.o [1]
+  .bss               zero     0x2000'0910    0x38  touch_config.o [1]
+  .bss               zero     0x2000'0948    0x34  user_function.o [1]
+  .bss               zero     0x2000'097c    0x30  a31t21x_gpio.o [1]
+  .bss               zero     0x2000'09ac    0x1c  a31t21x_scu.o [1]
+  .bss               zero     0x2000'09c8    0x1c  debug.o [1]
+  .bss               zero     0x2000'09e4    0x1c  touch_config.o [1]
+  .bss               zero     0x2000'0a00    0x1c  touch_config.o [1]
+  .bss               zero     0x2000'0a1c    0x1c  touch_config.o [1]
+  .bss               zero     0x2000'0a38    0x1c  touch_config.o [1]
+  .bss               zero     0x2000'0a54    0x1c  touch_config.o [1]
+  .bss               zero     0x2000'0a70    0x1c  touch_config.o [1]
+  .bss               zero     0x2000'0a8c    0x1c  touch_config.o [1]
+  .bss               zero     0x2000'0aa8    0x1c  touch_config.o [1]
+  .bss               zero     0x2000'0ac4    0x1c  touch_config.o [1]
+  .bss               zero     0x2000'0ae0    0x10  a31t21x_wdt.o [1]
+  .bss               zero     0x2000'0af0    0x10  touch_config.o [1]
+  .bss               zero     0x2000'0b00    0x10  touch_config.o [1]
+  .bss               zero     0x2000'0b10    0x10  touch_config.o [1]
+  .bss               zero     0x2000'0b20    0x10  touch_config.o [1]
+  .bss               zero     0x2000'0b30    0x10  touch_config.o [1]
+  .bss               zero     0x2000'0b40    0x10  touch_config.o [1]
+  .bss               zero     0x2000'0b50     0xc  debug.o [1]
+  .bss               zero     0x2000'0b5c     0x8  a31t21x_led.o [1]
+  .bss               zero     0x2000'0b64     0x8  a31t21x_pwr.o [1]
+  .bss               zero     0x2000'0b6c     0x8  debug.o [1]
+  .bss               zero     0x2000'0b74     0x8  led_driver.o [1]
+  .bss               zero     0x2000'0b7c     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0b84     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0b8c     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0b94     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0b9c     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0ba4     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bac     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bb4     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bbc     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bc4     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bcc     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bd4     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bdc     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0be4     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bec     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bf4     0x8  touch_config.o [1]
+  .bss               zero     0x2000'0bfc     0x4  a31t21x_system.o [1]
+  .bss               zero     0x2000'0c00     0x4  a31t21x_system.o [1]
+  .bss               zero     0x2000'0c04     0x4  a31t21x_system.o [1]
+  .bss               zero     0x2000'0c08     0x4  led_driver.o [1]
+  .bss               zero     0x2000'0c0c     0x4  user_timer.o [1]
+  .bss               zero     0x2000'0c10     0x4  user_timer.o [1]
+  .bss               zero     0x2000'0c14     0x4  user_timer.o [1]
+  .bss               zero     0x2000'0c18     0x4  user_timer.o [1]
+  .bss               zero     0x2000'0c1c     0x4  touch_lib.o [5]
+  .bss               zero     0x2000'0c20     0x4  touch_lib.o [5]
+  .bss               zero     0x2000'0c24     0x4  touch_lib.o [5]
+  .bss               zero     0x2000'0c28     0x2  main.o [1]
+  .bss               zero     0x2000'0c2a     0x2  user_timer.o [1]
+  .bss               zero     0x2000'0c2c     0x2  user_timer.o [1]
+  .bss               zero     0x2000'0c2e     0x1  a31t21x_wdt.o [1]
+  .bss               zero     0x2000'0c2f     0x1  debug.o [1]
+  .bss               zero     0x2000'0c30     0x1  debug.o [1]
+  .bss               zero     0x2000'0c31     0x1  debug.o [1]
+  .bss               zero     0x2000'0c32     0x1  debug.o [1]
+  .bss               zero     0x2000'0c33     0x1  debug.o [1]
+  .bss               zero     0x2000'0c34     0x1  led_driver.o [1]
+                            - 0x2000'0c35   0x679
+
+"P2", part 3 of 3:                          0x400
+  CSTACK                      0x2000'0c38   0x400  <Block>
+    CSTACK           uninit   0x2000'0c38   0x400  <Block tail>
+                            - 0x2000'1038   0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x4ee0     0x7'ffff  0x7'b120
+  0x2000'1038  0x2000'ffff    0xefc8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x679:
+          0x2000'05bc  0x679
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x76 (8% of destination):
+               0x4e6a   0x76
+    1 destination range, total size 0x5bc:
+          0x2000'0000  0x5bc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+command line/config:
+    ---------------------------------------------------
+    Total:
+
+D:\SVN_KOREA_\가전-국내\1_가전 Touch Base Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj: [1]
+    a31t21x_dma.o                 116
+    a31t21x_gpio.o                588                48
+    a31t21x_led.o                 568                 8
+    a31t21x_port_init.o             8
+    a31t21x_pwr.o                  36                 8
+    a31t21x_scu.o                 928                28
+    a31t21x_startup_iar.o         292
+    a31t21x_system.o               64                12
+    a31t21x_system_setting.o       76
+    a31t21x_timer.o               260                72
+    a31t21x_uart.o              1 664                80
+    a31t21x_usart1n.o             800                80
+    a31t21x_wdt.o                 676                17
+    debug.o                     1 608               365
+    led_driver.o                1 860       96       13
+    main.o                        788       12        2
+    touch_config.o              1 424      114    1 952
+    user_function.o               744        3      100
+    user_timer.o                  448                20
+    ---------------------------------------------------
+    Total:                     12 948      225    2 805
+
+dl6M_tln.a: [2]
+    abs.o                           8
+    exit.o                          8
+    low_level_init.o                4
+    ---------------------------------------------------
+    Total:                         20
+
+rt6M_tl.a: [3]
+    ABImemcpy.o                    52
+    ABImemset.o                    78
+    I32DivModFast.o               224
+    IntDivZer.o                     2
+    cexit.o                        10
+    cmain.o                        30
+    cstartup_M.o                   12
+    data_init.o                    40
+    lz77_init_single.o            126
+    zero_init3.o                   60
+    ---------------------------------------------------
+    Total:                        634
+
+shb_l.a: [4]
+    exit.o                         20
+    ---------------------------------------------------
+    Total:                         20
+
+touch_V109_IAR83_240222.a: [5]
+    touch_lib.o                 6 312               320
+    ---------------------------------------------------
+    Total:                      6 312               320
+
+    Linker created                          33    1 024
+-------------------------------------------------------
+    Grand Total:               19 934      258    4 149
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x4d70          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x4d90          --   Gb  - Linker created -
+?main                        0x4d91         Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0c38          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'1038          --   Gb  - Linker created -
+Change_SysClock              0x4323   0x80  Code  Gb  main.o [1]
+DBG_Do_Task                  0x348d  0x16c  Code  Gb  debug.o [1]
+DBG_Do_Task::stStep     0x2000'0c33    0x1  Data  Lc  debug.o [1]
+DBG_Init_UART                0x3033   0x70  Code  Gb  debug.o [1]
+DBG_Init_UART_Param          0x30a3   0x54  Code  Gb  debug.o [1]
+DBG_Init_Variable            0x31b1   0x10  Code  Gb  debug.o [1]
+DBG_RX_Check                 0x3135   0x7c  Code  Gb  debug.o [1]
+DBG_Send_Data                0x3261  0x222  Code  Gb  debug.o [1]
+DBG_Set_Baudrate             0x3023   0x10  Code  Gb  debug.o [1]
+DMA_REG                      0x2f5d    0xc  Code  Lc  a31t21x_dma.o [1]
+GPIOAB_IRQHandler            0x1b81   0x10  Code  Gb  a31t21x_gpio.o [1]
+GPIOCD_IRQHandler            0x1b91   0x10  Code  Gb  a31t21x_gpio.o [1]
+GPIOE_IRQHandler             0x1ba1    0xa  Code  Gb  a31t21x_gpio.o [1]
+GPIOF_IRQHandler             0x1bab    0xa  Code  Gb  a31t21x_gpio.o [1]
+GPIO_Handler                 0x1b05   0x76  Code  Lc  a31t21x_gpio.o [1]
+GPIO_REG                     0x1969    0xe  Code  Lc  a31t21x_gpio.o [1]
+HAL_DMA_Start                0x2f69   0x5e  Code  Gb  a31t21x_dma.o [1]
+HAL_GPIO_Init                0x1977   0x86  Code  Gb  a31t21x_gpio.o [1]
+HAL_GPIO_SetFunction         0x1a45   0x3c  Code  Gb  a31t21x_gpio.o [1]
+HAL_GPIO_SetMode             0x1a01   0x44  Code  Gb  a31t21x_gpio.o [1]
+HAL_GPIO_SetPin              0x1ad9   0x2c  Code  Gb  a31t21x_gpio.o [1]
+HAL_GPIO_SetPull             0x1a81   0x3c  Code  Gb  a31t21x_gpio.o [1]
+HAL_LED_Init                 0x26f7  0x10c  Code  Gb  a31t21x_led.o [1]
+HAL_SCU_SetPLLConfig         0x3dc9   0xe8  Code  Gb  a31t21x_scu.o [1]
+HAL_SCU_UpdateMainClock
+                             0x3d65   0x44  Code  Gb  a31t21x_scu.o [1]
+HAL_UART_Deinit              0x2b39   0x58  Code  Gb  a31t21x_uart.o [1]
+HAL_UART_Init                0x2a21  0x118  Code  Gb  a31t21x_uart.o [1]
+HAL_UART_Receive             0x2c95   0xf8  Code  Gb  a31t21x_uart.o [1]
+HAL_UART_Transmit            0x2ba9   0xe4  Code  Gb  a31t21x_uart.o [1]
+HAL_WDT_ClearStatus          0x4787   0x1a  Code  Gb  a31t21x_wdt.o [1]
+HAL_WDT_Feed                 0x4755   0x32  Code  Gb  a31t21x_wdt.o [1]
+HAL_WDT_Init                 0x46db   0x20  Code  Gb  a31t21x_wdt.o [1]
+HAL_WDT_Start                0x46fb   0x5a  Code  Gb  a31t21x_wdt.o [1]
+Hexstr_To_Binary             0x30f7   0x3e  Code  Gb  debug.o [1]
+Init_Touch                   0x38d9   0x5a  Code  Gb  touch_config.o [1]
+Init_User_Function           0x43a3   0xc2  Code  Gb  main.o [1]
+LED_Do_Task                  0x2555   0x4e  Code  Gb  led_driver.o [1]
+LED_Do_Task::state      0x2000'0c34    0x1  Data  Lc  led_driver.o [1]
+LED_IRQHandler               0x2885    0x8  Code  Gb  a31t21x_led.o [1]
+LED_IRQHandlerC              0x2803   0x42  Code  Lc  a31t21x_led.o [1]
+LED_Init_IO                  0x2279   0xc6  Code  Gb  led_driver.o [1]
+LED_Init_Reg                 0x2365  0x1f0  Code  Gb  led_driver.o [1]
+LED_Set_Actv_Time            0x2195   0x8a  Code  Gb  led_driver.o [1]
+LED_Set_Current              0x2229   0x28  Code  Gb  led_driver.o [1]
+LVI_IRQHandler               0x4d4d   0x18  Code  Gb  a31t21x_pwr.o [1]
+Library_Data_Assign          0x3639   0xa2  Code  Gb  touch_config.o [1]
+Make_Packet_Byte             0x31c1   0x24  Code  Gb  debug.o [1]
+Make_Packet_Word             0x31e5   0x54  Code  Gb  debug.o [1]
+Port_Init                    0x4821    0x8  Code  Gb  a31t21x_port_init.o [1]
+Region$$Table$$Base          0x4d70          --   Gb  - Linker created -
+Region$$Table$$Limit         0x4d90          --   Gb  - Linker created -
+SCU_ClockEnable              0x3c15  0x150  Code  Lc  a31t21x_scu.o [1]
+SCU_FlashLatencySet          0x3ba9   0x6c  Code  Lc  a31t21x_scu.o [1]
+SYSCLKFAIL_IRQHandler        0x3ef1   0x50  Code  Gb  a31t21x_scu.o [1]
+Set_TS_IO                     0x105  0x364  Code  Gb  touch_lib.o [5]
+Set_Touch_Config             0x36db  0x1ce  Code  Gb  touch_config.o [1]
+SysTick_Config               0x42f3   0x30  Code  Lc  main.o [1]
+SysTick_Handler              0x1bd3   0x3c  Code  Gb  user_timer.o [1]
+SystemCoreClock         0x2000'0bfc    0x4  Data  Gb  a31t21x_system.o [1]
+SystemDelayCount        0x2000'0c04    0x4  Data  Gb  a31t21x_system.o [1]
+SystemInit                   0x4ca9   0x28  Code  Gb  a31t21x_system.o [1]
+SystemPeriClock         0x2000'0c00    0x4  Data  Gb  a31t21x_system.o [1]
+System_Setting_Config        0x4829   0x4c  Code  Gb  a31t21x_system_setting.o [1]
+TIMER10_IRQHandler           0x4c25    0xa  Code  Gb  a31t21x_timer.o [1]
+TIMER11_IRQHandler           0x4c2f    0xa  Code  Gb  a31t21x_timer.o [1]
+TIMER12_IRQHandler           0x4c39    0xa  Code  Gb  a31t21x_timer.o [1]
+TIMER13_IRQHandler           0x4c43    0xa  Code  Gb  a31t21x_timer.o [1]
+TIMER20_IRQHandler           0x4c4d    0xa  Code  Gb  a31t21x_timer.o [1]
+TIMER21_IRQHandler           0x4c57    0xa  Code  Gb  a31t21x_timer.o [1]
+TIMER_IRQHandler             0x4b99   0x84  Code  Lc  a31t21x_timer.o [1]
+TIMER_REG                    0x4b5d   0x32  Code  Lc  a31t21x_timer.o [1]
+TOUCH_IRQHandler             0x3995  0x1da  Code  Gb  touch_config.o [1]
+TS_CH_CFG               0x2000'004c  0x540  Data  Gb  touch_config.o [1]
+TS_COM_CFG              0x2000'0000   0x4c  Data  Gb  touch_config.o [1]
+Touch_Config_Mode             0x7c5  0x3f4  Code  Gb  touch_lib.o [5]
+Touch_Disicion_Key           0x130d  0x2f8  Code  Gb  touch_lib.o [5]
+Touch_Do_Task                0x1609  0x346  Code  Gb  touch_lib.o [5]
+Touch_Freq_Sel               0x4875  0x1ca  Code  Gb  user_function.o [1]
+Touch_Get_Single_CH           0x691   0x8c  Code  Gb  touch_lib.o [5]
+Touch_Init_Base               0xbc1  0x188  Code  Gb  touch_lib.o [5]
+Touch_Init_Register           0x593   0xf6  Code  Gb  touch_lib.o [5]
+Touch_Init_Variable           0x4d1   0xc2  Code  Gb  touch_lib.o [5]
+Touch_Key_Scenario           0x4a3f  0x116  Code  Gb  user_function.o [1]
+Touch_Make_Data              0x11dd  0x12a  Code  Gb  touch_lib.o [5]
+Touch_Ref_Compen             0x1049  0x194  Code  Gb  touch_lib.o [5]
+Touch_Set_Shield              0x469   0x68  Code  Gb  touch_lib.o [5]
+Touch_Start_Touch             0x725   0x4c  Code  Gb  touch_lib.o [5]
+Touch_Update_Base             0xd51  0x2f4  Code  Gb  touch_lib.o [5]
+UART0_IRQHandler             0x2ef9    0xa  Code  Gb  a31t21x_uart.o [1]
+UART1_IRQHandler             0x2f03    0xa  Code  Gb  a31t21x_uart.o [1]
+UART_Configure               0x297b   0xa6  Code  Lc  a31t21x_uart.o [1]
+UART_IRQHandler              0x2da9  0x14a  Code  Lc  a31t21x_uart.o [1]
+UART_IRQ_NUM                 0x2975    0x6  Code  Lc  a31t21x_uart.o [1]
+UART_REG                     0x2967    0xe  Code  Lc  a31t21x_uart.o [1]
+USART10_IRQHandler           0x4255    0xa  Code  Gb  a31t21x_usart1n.o [1]
+USART11_IRQHandler           0x425f    0xa  Code  Gb  a31t21x_usart1n.o [1]
+USART_IRQHandler             0x3f65  0x2e8  Code  Lc  a31t21x_usart1n.o [1]
+USART_REG                    0x3f49    0xe  Code  Lc  a31t21x_usart1n.o [1]
+USART_StatusCheck            0x3f57    0x8  Code  Lc  a31t21x_usart1n.o [1]
+UT_Check_Expire              0x1cad   0x74  Code  Lc  user_timer.o [1]
+UT_Clear_Timer               0x1c5d   0x50  Code  Gb  user_timer.o [1]
+UT_Get_Status                0x1c57    0x6  Code  Gb  user_timer.o [1]
+UT_Is_Expired                0x1d21   0x3a  Code  Gb  user_timer.o [1]
+UT_Run_Timer                 0x1bb5   0x1e  Code  Gb  user_timer.o [1]
+UT_Set_Timer                 0x1c0f   0x48  Code  Gb  user_timer.o [1]
+WDT_Configure                0x4637   0xa4  Code  Lc  a31t21x_wdt.o [1]
+WDT_IRQHandlerC              0x47a5   0x30  Code  Gb  a31t21x_wdt.o [1]
+WDT_kick_touch                 0xf1    0x8  Code  Gb  touch_lib.o [5]
+__NVIC_ClearPendingIRQ       0x28c5   0x18  Code  Lc  a31t21x_uart.o [1]
+__NVIC_ClearPendingIRQ       0x4595   0x18  Code  Lc  a31t21x_wdt.o [1]
+__NVIC_ClearPendingIRQ       0x1ef5   0x18  Code  Lc  led_driver.o [1]
+__NVIC_ClearPendingIRQ         0xd9   0x18  Code  Lc  touch_lib.o [5]
+__NVIC_DisableIRQ            0x28a5   0x20  Code  Lc  a31t21x_uart.o [1]
+__NVIC_DisableIRQ            0x3619   0x20  Code  Lc  touch_config.o [1]
+__NVIC_EnableIRQ             0x2655   0x18  Code  Lc  a31t21x_led.o [1]
+__NVIC_EnableIRQ             0x288d   0x18  Code  Lc  a31t21x_uart.o [1]
+__NVIC_EnableIRQ             0x457d   0x18  Code  Lc  a31t21x_wdt.o [1]
+__NVIC_EnableIRQ             0x1edd   0x18  Code  Lc  led_driver.o [1]
+__NVIC_EnableIRQ               0xc1   0x18  Code  Lc  touch_lib.o [5]
+__NVIC_SetPriority           0x266d   0x8a  Code  Lc  a31t21x_led.o [1]
+__NVIC_SetPriority           0x28dd   0x8a  Code  Lc  a31t21x_uart.o [1]
+__NVIC_SetPriority           0x45ad   0x8a  Code  Lc  a31t21x_wdt.o [1]
+__NVIC_SetPriority           0x1f0d   0x8a  Code  Lc  led_driver.o [1]
+__NVIC_SetPriority           0x4269   0x8a  Code  Lc  main.o [1]
+__aeabi_idiv                 0x1da1         Code  Gb  I32DivModFast.o [3]
+__aeabi_idiv0                0x1e5d         Code  Gb  IntDivZer.o [3]
+__aeabi_idivmod              0x1da1         Code  Gb  I32DivModFast.o [3]
+__aeabi_memcpy4              0x2621         Code  Wk  ABImemcpy.o [3]
+__aeabi_memset               0x2f0d         Code  Gb  ABImemset.o [3]
+__aeabi_uidiv                0x1da7         Code  Gb  I32DivModFast.o [3]
+__aeabi_uidivmod             0x1da7         Code  Gb  I32DivModFast.o [3]
+__cmain                      0x4d91         Code  Gb  cmain.o [3]
+__exit                       0x4dc9   0x14  Code  Gb  exit.o [4]
+__iar_Memset4_word           0x2f2d         Code  Gb  ABImemset.o [3]
+__iar_Memset_word            0x2f19         Code  Gb  ABImemset.o [3]
+__iar_data_init3             0x4d25   0x28  Code  Gb  data_init.o [3]
+__iar_lz77_init_single3
+                             0x1e5f   0x7e  Code  Gb  lz77_init_single.o [3]
+__iar_program_start          0x4e49         Code  Gb  cstartup_M.o [3]
+__iar_zero_init3             0x4ce9   0x3c  Code  Gb  zero_init3.o [3]
+__low_level_init             0x4daf    0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0         Data  Gb  a31t21x_startup_iar.o [1]
+_call_main                   0x4d9d         Code  Gb  cmain.o [3]
+_exit                        0x4dbd         Code  Gb  cexit.o [3]
+_main                        0x4dab         Code  Gb  cmain.o [3]
+abs                          0x1e55    0x8  Code  Gb  abs.o [2]
+app_led_irq_handler          0x1f97   0xa0  Code  Gb  led_driver.o [1]
+app_uart_irq_handler         0x2fd1   0x52  Code  Gb  debug.o [1]
+app_uart_rx_buf         0x2000'0b6c    0x8  Data  Gb  debug.o [1]
+app_uart_rx_done        0x2000'0c30    0x1  Data  Lc  debug.o [1]
+app_uart_tx_done        0x2000'0c2f    0x1  Data  Lc  debug.o [1]
+big_diff_thd            0x2000'058c   0x30  Data  Gb  user_function.o [1]
+coDigit                      0x4c60   0x48  Data  Gb  led_driver.o [1]
+dbg                     0x2000'0b50    0xc  Data  Gb  debug.o [1]
+exit                         0x4db3    0x8  Code  Gb  exit.o [2]
+fpRenewLED              0x2000'0c08    0x4  Data  Gb  led_driver.o [1]
+func_p_Touch_Freq_Sel   0x2000'0c24    0x4  Data  Gb  touch_lib.o [5]
+func_p_user_filter_diffdata
+                        0x2000'0c20    0x4  Data  Gb  touch_lib.o [5]
+func_p_user_filter_onesensingdata
+                        0x2000'0c1c    0x4  Data  Gb  touch_lib.o [5]
+g_actv_ch_num           0x2000'0b7c    0x8  Data  Gb  touch_config.o [1]
+g_base_hold_cnt         0x2000'0bf4    0x8  Data  Gb  touch_config.o [1]
+g_base_sample_avg_data  0x2000'0aa8   0x1c  Data  Gb  touch_config.o [1]
+g_base_sample_sum_data  0x2000'0910   0x38  Data  Gb  touch_config.o [1]
+g_base_track_fast_gain  0x2000'0bb4    0x8  Data  Gb  touch_config.o [1]
+g_base_track_slow_gain  0x2000'0bac    0x8  Data  Gb  touch_config.o [1]
+g_baseline              0x2000'0a8c   0x1c  Data  Gb  touch_config.o [1]
+g_debounce_cnt          0x2000'0bec    0x8  Data  Gb  touch_config.o [1]
+g_debounce_cnt_detect   0x2000'0bdc    0x8  Data  Gb  touch_config.o [1]
+g_debounce_cnt_release  0x2000'0be4    0x8  Data  Gb  touch_config.o [1]
+g_diff_data             0x2000'0b20   0x10  Data  Gb  touch_config.o [1]
+g_diff_data_filter      0x2000'0b30   0x10  Data  Gb  touch_config.o [1]
+g_fluct_cnt             0x2000'0bc4    0x8  Data  Gb  touch_config.o [1]
+g_fluct_frq_sel         0x2000'0bcc    0x8  Data  Gb  touch_config.o [1]
+g_fluct_sum             0x2000'0ac4   0x1c  Data  Gb  touch_config.o [1]
+g_gcb                   0x2000'097c   0x30  Data  Lc  a31t21x_gpio.o [1]
+g_iir_offset_cnt        0x2000'0b9c    0x8  Data  Gb  touch_config.o [1]
+g_lcb                   0x2000'0b5c    0x8  Data  Lc  a31t21x_led.o [1]
+g_noise_thd_rate        0x2000'0ba4    0x8  Data  Gb  touch_config.o [1]
+g_one_sensing           0x2000'09e4   0x1c  Data  Gb  touch_config.o [1]
+g_one_sensing_compen    0x2000'0a1c   0x1c  Data  Gb  touch_config.o [1]
+g_one_sensing_filter    0x2000'0a38   0x1c  Data  Gb  touch_config.o [1]
+g_one_sensing_filter_pre
+                        0x2000'0a54   0x1c  Data  Gb  touch_config.o [1]
+g_one_sensing_pre       0x2000'0a00   0x1c  Data  Gb  touch_config.o [1]
+g_pcb                   0x2000'0b64    0x8  Data  Lc  a31t21x_pwr.o [1]
+g_raw_data              0x2000'0a70   0x1c  Data  Gb  touch_config.o [1]
+g_rc_filter             0x2000'0b84    0x8  Data  Gb  touch_config.o [1]
+g_ref_ch_dir            0x2000'0b94    0x8  Data  Gb  touch_config.o [1]
+g_ref_ch_gain           0x2000'0b10   0x10  Data  Gb  touch_config.o [1]
+g_release_rate          0x2000'0bd4    0x8  Data  Gb  touch_config.o [1]
+g_reverse_rate          0x2000'0bbc    0x8  Data  Gb  touch_config.o [1]
+g_scb                   0x2000'09ac   0x1c  Data  Lc  a31t21x_scu.o [1]
+g_tcb                   0x2000'08c8   0x48  Data  Lc  a31t21x_timer.o [1]
+g_thd_detect            0x2000'0b40   0x10  Data  Gb  touch_config.o [1]
+g_total_cap             0x2000'0b00   0x10  Data  Gb  touch_config.o [1]
+g_touch_sum_count       0x2000'0b8c    0x8  Data  Gb  touch_config.o [1]
+g_ucb                   0x2000'0828   0x50  Data  Lc  a31t21x_uart.o [1]
+g_ucb                   0x2000'0878   0x50  Data  Lc  a31t21x_usart1n.o [1]
+g_wcb                   0x2000'0ae0   0x10  Data  Lc  a31t21x_wdt.o [1]
+g_zero_sco              0x2000'0af0   0x10  Data  Gb  touch_config.o [1]
+gu8ReloadCount          0x2000'0c2e    0x1  Data  Lc  a31t21x_wdt.o [1]
+led                     0x2000'0b74    0x8  Data  Gb  led_driver.o [1]
+led_RenewData                0x2037  0x15a  Code  Gb  led_driver.o [1]
+main                         0x4469   0xa2  Code  Gb  main.o [1]
+s8_buff                 0x2000'09c8   0x1c  Data  Lc  debug.o [1]
+s8_index                0x2000'0c32    0x1  Data  Lc  debug.o [1]
+s8_step                 0x2000'0c31    0x1  Data  Lc  debug.o [1]
+t_sysbit                0x2000'0c28    0x2  Data  Gb  main.o [1]
+ts                      0x2000'06f4   0xdc  Data  Gb  touch_lib.o [5]
+ts_reg                  0x2000'07d0   0x58  Data  Gb  touch_lib.o [5]
+uart                    0x2000'05bc  0x138  Data  Gb  debug.o [1]
+user                    0x2000'0948   0x34  Data  Gb  user_function.o [1]
+ut_base_update_timer    0x2000'0c14    0x4  Data  Lc  user_timer.o [1]
+ut_expire_flag          0x2000'0c2c    0x2  Data  Lc  user_timer.o [1]
+ut_hold_key_timer       0x2000'0c18    0x4  Data  Lc  user_timer.o [1]
+ut_init_delay_timer     0x2000'0c0c    0x4  Data  Lc  user_timer.o [1]
+ut_reverse_timer        0x2000'0c10    0x4  Data  Lc  user_timer.o [1]
+ut_set_flag             0x2000'0c2a    0x2  Data  Lc  user_timer.o [1]
+
+
+[1] = D:\SVN_KOREA_\가전-국내\1_가전 Touch Base Code\32_Bit\A31T21x\Base_Code\Release\Ver_1_23 (Lib V109)\Release_Home Page\Example_STKS-A31T216-RLN-TOUCH-A\example\touch\iar\Debug\Obj
+[2] = dl6M_tln.a
+[3] = rt6M_tl.a
+[4] = shb_l.a
+[5] = touch_V109_IAR83_240222.a
+
+  19 934 bytes of readonly  code memory
+     258 bytes of readonly  data memory
+   4 149 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

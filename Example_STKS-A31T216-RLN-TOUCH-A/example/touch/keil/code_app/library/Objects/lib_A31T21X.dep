@@ -1,0 +1,17 @@
+Dependencies for Project 'lib', Target 'A31T21X': (DO NOT MODIFY !)
+F (..\..\code_lib\touch_lib.c)(0x65D7080E)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork -I ..\..\..\..\..\core\cmsis\include -I ..\..\..\..\..\core\device\a31t21x\include -I ..\..\..\..\..\driver\a31t21x\include -I ..\..\code_app\library\header -I ..\..\common -I ..\..\code_app-I.\RTE\_A31T21X-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0plus\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DARMCM0P-o ..\..\code_app\library\objects\touch_lib.o --omf_browse ..\..\code_app\library\objects\touch_lib.crf --depend ..\..\code_app\library\objects\touch_lib.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x599ECD2C)
+I (..\..\..\..\..\core\device\a31t21x\include\a31T21x.h)(0x64F964E6)
+I (..\..\..\..\..\core\cmsis\include\core_cm0plus.h)(0x6180C924)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\..\..\..\core\cmsis\include\cmsis_version.h)(0x6180C924)
+I (..\..\..\..\..\core\cmsis\include\cmsis_compiler.h)(0x6180C924)
+I (..\..\..\..\..\core\cmsis\include\cmsis_armcc.h)(0x64F96F55)
+I (..\..\..\..\..\core\device\a31t21x\include\a31t21x_system.h)(0x64F96CC3)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_gpio.h)(0x64F96AD1)
+I (..\..\..\..\..\driver\a31t21x\include\a31t21x_driver_common.h)(0x64F965AA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599ECD2C)
+I (..\..\code_app\library\header\touch_lib.h)(0x6510E71D)
+I (..\..\code_app\library\header\common.h)(0x64F9BBAB)
+I (..\..\code_app\user_timer.h)(0x65C1C524)

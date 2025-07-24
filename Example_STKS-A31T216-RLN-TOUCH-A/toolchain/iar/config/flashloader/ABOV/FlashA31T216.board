@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flash_board>
+    <pass>
+        <loader>$TOOLKIT_DIR$\config\flashloader\ABOV\FlashA31T216.flash</loader>
+        <range>CODE 0x0 0x3ffff</range>
+    </pass>
+</flash_board>
